@@ -112,6 +112,11 @@
     padding-bottom: 1rem;
   }
 
+  .header__text{
+    color: #FFFFFF;
+  }
+
+
 
  /*@media page*/
   @media (min-width: 992px){

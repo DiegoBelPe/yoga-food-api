@@ -16,7 +16,7 @@ const Header = () => {
           <h1 className={style.header_title}>Title Lorem ipsum</h1>
       </div>
       <div className={style.header_section_food}>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quis!</p>
+        <p className={style.header__text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quis!</p>
         <div className={style.header_food}>
           <img src={image.img2} alt="" />
         </div>

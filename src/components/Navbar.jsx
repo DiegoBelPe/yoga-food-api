@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../navbar.css";
+import "../styles/navbar.css";
 
 function Navbar() {
   const [active, setActive] = useState("nav__menu");
@@ -19,28 +19,23 @@ function Navbar() {
       <ul className={active}>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Home
+            item 1
           </a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            About
+            item 2
           </a>
         </li>
         <li className="nav__item">
           <a href="#" className="nav__link">
-            Portfolio
+            item 3
           </a>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
-            Skills
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Contact
-          </a>
+          <button className="btn_login">
+            login
+          </button>
         </li>
       </ul>
       <div onClick={navToggle} className={icon}>
