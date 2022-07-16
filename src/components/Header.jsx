@@ -1,10 +1,8 @@
 import React from 'react'
 import image from '../assets/images'
 import style from '../styles/Header.module.css'
-
-
-
-  
+import Download from './Download'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
@@ -19,6 +17,10 @@ const Header = () => {
         <p className={style.header__text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quis!</p>
         <div className={style.header_food}>
           <img src={image.img2} alt="" />
+        </div>
+        <div>
+          <Download />
+          <Navbar />
         </div>
       </div>
       <div>
