@@ -1,0 +1,127 @@
+/* const HeaderContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  background: radial-gradient(82.69% 87.25% at 100% 4.5%, #FFCC1C 0%, #FF9D0C 100%);
+  width: 400px;
+  height: 636px;
+
+  
+  @media (min-width: 992px){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    height: 20rem;
+    width: 100%;
+  }
+  `
+
+  const MonkeyCont= styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1rem;
+  background: #FFFFFF;
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
+  width: 153px;
+  height: 153px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -4rem;
+  
+
+  @media (min-width: 992px){
+    
+    margin: 13px 7rem 18rem;
+  }
+  `
+  const Image = styled.img`
+  position: absolute;
+  width: 49px;
+  height: 49.39px;
+  left: 45%;
+  top: 31px;
+
+  @media (min-width: 992px){
+   position: absolute;
+   left: 0;
+  }
+  
+  `
+  const Title = styled.h1`` */
+
+  .container_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    background: radial-gradient(82.69% 87.25% at 100% 4.5%, #FFCC1C 0%, #FF9D0C 100%);
+    width: 400px;
+    height: 636px;
+  }
+
+  .header_section_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+  .section_img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 1rem;
+    background: #FFFFFF;
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -4rem;
+  }
+
+  .header_img{
+    position: absolute;
+    width: 49px;
+    height: 49.39px;
+    left: 50%;
+    top: 31px;
+    
+  }
+
+  .header_title{
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+  .header_section_food{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+
+ /*@media page*/
+  @media (min-width: 992px){
+    .container_header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 20px;
+      margin: 0;
+      height: 20rem;
+      width: 100%;
+    }
+  }
