@@ -18,10 +18,11 @@ const Header = () => {
         <div className={style.header_food}>
           <img src={image.img2} alt="" />
         </div>
-        <div>
+        <div className={style.container_button}>
           <Download />
-          <Navbar />
+          <img src={image.img3} alt="" />
         </div>
+          <Navbar />
       </div>
       <div>
         

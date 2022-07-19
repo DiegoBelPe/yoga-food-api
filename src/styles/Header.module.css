@@ -116,6 +116,17 @@
     color: #FFFFFF;
   }
 
+  .container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    gap: 1rem;
+
+  }
+
 
 
  /*@media page*/
