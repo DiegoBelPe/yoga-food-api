@@ -12,12 +12,9 @@ const Header = () => {
         </div>
           <img className={style.header_img} src={image.img1} alt="monkey" />
           <h1 className={style.header_title}>Title Lorem ipsum</h1>
-          <p className={style.header__text}>Lorem ipsum dolor sit amet   consectetur adipisicing elit. Blanditiis, quis!</p>
-          <div className={style.container_button}>
-          <Download />
-          <img src={image.img3} alt="" />
-        </div>
+          <p className={style.header__text}>Lorem ipsum dolor sit amet   consectetur adipisicing elit. Blanditiis, quis!</p>   
       </div>
+      
       <div className={style.header_section_food}>
         <div className={style.header_food_img}>
         </div>
@@ -26,6 +23,10 @@ const Header = () => {
         
           <Navbar />
       </div>
+      <div className={style.container_button}>
+          <Download />
+          <img src={image.img3} alt="" />
+        </div>
       <div>
         
       </div>
