@@ -67,7 +67,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
     margin-right: 3rem;
     gap: 1rem;
 
@@ -120,10 +119,12 @@
 
     .container_button{
       display: flex;
+      position: absolute;
       justify-content: center;
       align-items: center;
       gap: 1rem;
-      margin-top: 2.5rem;
+      margin-top: 28rem;
+      margin-right: 42rem;
   
     }
 
